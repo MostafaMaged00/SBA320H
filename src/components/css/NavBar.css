@@ -40,25 +40,8 @@
     .nav-links {
       flex-direction: column;
       align-items: center;
-      display: none; /* Hidden by default */
+    
     }
   
-    .navbar .toggle-button {
-      display: block;
-      cursor: pointer;
-      color: white;
-      font-size: 24px;
-    }
-  
-    .navbar.active .nav-links {
-      display: flex;
-    }
   }
   
-  .navbar .toggle-button {
-    display: none;
-  }
-  
-  .navbar.active .toggle-button {
-    display: block;
-  }

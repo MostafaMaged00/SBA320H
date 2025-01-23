@@ -1,15 +1,22 @@
 import React from 'react'
 import NavBar from './components/NavBar'
+import { Route,Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Service from './pages/Service'
+import Contact from './pages/contact'
 
 function App() {
   return (
     <>
        <NavBar/>
-      <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Voluptate provident fuga nihil sapiente, dolorem animi ex id ipsum minus pariatur 
-          obcaecati veritatis voluptates sequi error dolorum culpa architecto recusandae tempore!</p>
-      </section>
+       <Routes>
+        <Route path="/Home" element={<Home/>} />
+        <Route path="/About" element={<About/>} />
+        <Route path="/Service" element={<Service/>} />
+        <Route path="/Contact" element={<Contact/>} />
+       </Routes>
+     
      
     </>
   )
