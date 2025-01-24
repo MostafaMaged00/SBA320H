@@ -1,0 +1,21 @@
+.search-container{
+    max-width: 100%;
+    margin: 20px auto;
+    display: flex;
+    
+  }
+  .search-bar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .search-bar input{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    color: #626262;
+    background: #fff;
+    font-size: 18px;
+    padding-left: 10px;
+  }

@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Service from './pages/Service'
 import Contact from './pages/contact'
+import Search from './components/Search'
+import './App.css';
 
 function App() {
   return (
@@ -16,6 +18,10 @@ function App() {
         <Route path="/Service" element={<Service/>} />
         <Route path="/Contact" element={<Contact/>} />
        </Routes>
+       <div className='search-container'>
+        <Search/>
+       </div>
+
      
      
     </>

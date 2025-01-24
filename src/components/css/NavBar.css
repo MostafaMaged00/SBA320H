@@ -5,6 +5,8 @@
     background-color: #333;
     width: 100%;
     border-bottom: #b3a4a4;
+    box-shadow: 0px 0px 20px 5px grey;
+    margin-bottom: 50px;
   }
   
   .navbar .logo h1 {
