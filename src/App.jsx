@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'; 
+import  { useEffect, useState } from 'react'
 import NavBar from './components/NavBar'
 import { Route,Routes } from 'react-router-dom'
 import Home from './pages/Home'
