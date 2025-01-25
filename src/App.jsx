@@ -39,8 +39,10 @@ function App() {
     };
 
     fetchPosts();
-  }, []); // Empty dependency array en
+  }, []); // Empty dependency array 
 
+
+  //get the today date
   const today = new Date();
   const formattedDate = today.toLocaleDateString(); 
 
@@ -60,19 +62,20 @@ function App() {
 
        </div>
        <div className='App'>
-       <div>
+     
       <h1>Hot Jobs</h1>
-      <ul>
+      <ul className="myUL">
       {posts.map(post => (
           <li key={post.id}>
             <h4>Job Title : {post.title.toUpperCase()}</h4>
             <p><h4>Job Description</h4> {post.body}</p>
             <p>Opening : {post.userId}</p>
             <p>Date posted: {formattedDate}</p>
+            <button >Apply</button>
           </li>
         ))}
       </ul>
-    </div>
+
        </div>
 
      

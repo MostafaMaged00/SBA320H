@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <h1>REACTO</h1>
+        <h1>REACTO JOBS</h1>
       </div>
       <ul className="nav-links">
         <li><Link to="/Home">Home</Link></li>

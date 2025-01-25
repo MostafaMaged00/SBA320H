@@ -1,13 +1,14 @@
 .search-container{
     max-width: 100%;
-    margin: 20px auto;
+    height: 10px;
+    margin: 5px auto;
     display: flex;
     
   }
   .search-bar{
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 2px;
   }
   .search-bar input{
     height: 50px;
@@ -18,4 +19,36 @@
     background: #fff;
     font-size: 18px;
     padding-left: 10px;
+  }
+
+  .App{
+    background-color: #fff;
+    text-align: center;
+  }
+ .App ul{
+    
+    display: inline-block;
+    text-align: left;
+
+  }
+.App li{
+    max-width: 100%;
+    list-style-type: none;
+    background-color: rgb(158, 207, 207);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  .App button{
+    border: none;
+    margin: 5px;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  .App button:hover{
+    background-color: #a39999;
+    color: white;
   }
