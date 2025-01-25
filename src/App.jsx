@@ -4,7 +4,6 @@ import { Route,Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import Service from './pages/Service'
-import Contact from './pages/contact'
 import Search from './components/Search'
 
 import './App.css';
@@ -54,8 +53,7 @@ function App() {
         <Route path="/Home" element={<Home/>} />
         <Route path="/About" element={<About/>} />
         <Route path="/Service" element={<Service/>} />
-        <Route path="/Contact" element={<Contact/>} />
-       </Routes>
+             </Routes>
        <div className='search-container'>
         <Search/>
 
